@@ -1,0 +1,38 @@
+h1 {
+		text-align: center;
+		font-family: cursive;
+		font-size: 175%;
+	}
+	.column {
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		margin: 0;
+		padding: 0;
+	}
+	.one, .two, .three {
+		border: 1px solid black;
+		margin: 10px;
+		padding: 5px;
+		background-color: gray;
+	}
+	h2 {
+		font-family: cursive;
+    	font-size: 125%;
+    	margin: 0px;
+		border-bottom:2px solid black;
+		border-left:2px solid black;
+		width: 140px;
+		margin-top: 0px;
+		float: right;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+	}	
+	@media (min-width: 768px) and (max-width: 991px){
+		.one, .two {
+			width: 50%
+		}
+		.three {
+			width: 100%
+		}
+	}
